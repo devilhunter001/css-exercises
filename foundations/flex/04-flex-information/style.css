@@ -1,13 +1,28 @@
 body {
+  display: block;
   font-family: 'Courier New', Courier, monospace;
+
 }
 
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
 }
-
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding:12px;
+  margin: 12px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 .title {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
   font-size: 36px;
   font-weight: 900;
 }
